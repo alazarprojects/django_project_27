@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'books',
     "accounts",
-    "tema_books",
 ]
 
 MIDDLEWARE = [

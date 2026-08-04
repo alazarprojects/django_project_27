@@ -9,7 +9,6 @@ urlpatterns = [
     path("", include('books.urls')),
     path('', include('accounts.urls')),
     path( "accounts/", include('accounts.urls')),
-    path("", include('tema_books.urls')),
 ]
 
 if settings.DEBUG:
