@@ -29,6 +29,16 @@
 
   </nav>
 
+  {% if messages %}
+    <ul class="messages">
+        {% for msg in messages %}
+          <li class="messages {{ message.tags }}">
+            {{ msg }}
+          </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
   {% block content %} {% endblock %}
 
 </body>
